@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "plainvalue",
+    "secret": false,
+    "tags": [],
+    "value": "test_plainvalue"
+  }
+}

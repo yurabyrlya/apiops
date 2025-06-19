@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "credentials": {
+      "header": {
+        "testHeader": [
+          "{{secret}}"
+        ]
+      },
+      "query": {}
+    },
+    "protocol": "http",
+    "tls": {
+      "validateCertificateChain": true,
+      "validateCertificateName": true
+    },
+    "url": "https://petstore3.swagger.io/#/pet/getPetById"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "scope": "/subscriptions/a8dc4545-cf4a-4d49-ad1e-e6e31fba7ac5/resourceGroups/training/providers/Microsoft.ApiManagement/service/APIM-devops-iuri/products/unlimited",
+    "allowTracing": false,
+    "ownerId": "/subscriptions/a8dc4545-cf4a-4d49-ad1e-e6e31fba7ac5/resourceGroups/training/providers/Microsoft.ApiManagement/service/APIM-devops-iuri/users/1",
+    "state": "active"
+  }
+}

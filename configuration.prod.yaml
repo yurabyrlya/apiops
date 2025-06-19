@@ -1,0 +1,5 @@
+apimServiceName: APIM-iuri-production
+namedValues:
+loggers:
+diagnostics:
+apis:

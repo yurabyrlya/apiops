@@ -9,7 +9,8 @@ on:
         type: choice
         options:
         - configuration.extractor.yaml
-        - configuration.extractor.teamA.yaml
+        - configuration.extractor.TeamA.yaml
+        - configuration.extractor.TeamB.yaml
       API_SPECIFICATION_FORMAT:
         description: 'API Specification Format'     
         required: true

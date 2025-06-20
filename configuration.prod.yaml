@@ -1,5 +1,14 @@
 apimServiceName: APIM-iuri-production
 namedValues:
+  - name: plainvalue
+    properties:
+      displayName: db_name
+      value: "prod_db"
+  - name: secret
+    properties:
+      displayName: secret
+      value: "prod_secret"
+  
 loggers:
 diagnostics:
 apis:

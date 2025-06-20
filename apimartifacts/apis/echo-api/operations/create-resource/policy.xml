@@ -2,6 +2,9 @@
 	<inbound>
 		<base />
 		<json-to-xml apply="always" consider-accept-header="false" />
+		<set-header name="Test" exists-action="append">
+			<value>test</value>
+		</set-header>
 	</inbound>
 	<backend>
 		<base />
@@ -9,4 +12,7 @@
 	<outbound>
 		<base />
 	</outbound>
+	<on-error>
+		<base />
+	</on-error>
 </policies>

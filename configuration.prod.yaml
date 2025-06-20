@@ -8,6 +8,12 @@ namedValues:
     properties:
       displayName: secret
       value: "prod_secret"
+  - name: db-password
+    properties:
+      displayName: db-password
+      keyVault:
+        identityClientId: bafd38ee-e86f-4703-b08b-60415f518add
+        secretIdentifier: https://demo-kv-iuri.vault.azure.net/secrets/prod-db-secret-password/1014b8b5507e42c6b047083651e0f31a
   
 loggers:
 diagnostics:

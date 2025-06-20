@@ -18,3 +18,7 @@ namedValues:
 loggers:
 diagnostics:
 apis:
+  - name: PetstoreAPI 
+    properties:
+      displayName: "Petstore API"
+      path: "rest/petsstore"
